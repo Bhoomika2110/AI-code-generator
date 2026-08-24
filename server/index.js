@@ -21,7 +21,7 @@ const port = process.env.PORT || 5000
 app.use(cors({
   origin:[
     "http://localhost:5173",
-    "https://twowebsite-building-1.onrender.com"
+    "https://ai-code-generator-1-5gsb.onrender.com"
   ],
   credentials:true
 }));
