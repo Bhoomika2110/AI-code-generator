@@ -32,8 +32,8 @@ export const googleAuth = async (req, res) => {
     // ✅ SET the cookie (do NOT clear it)
     res.cookie("token", token, {
       httpOnly: true,
-      secure: true, // localhost
-      sameSite: "non",
+      sameSite: "none",
+      secure: true,
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
 
