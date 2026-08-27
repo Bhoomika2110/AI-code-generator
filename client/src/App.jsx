@@ -7,7 +7,7 @@ import Dashboard from './pages/Dashboard'
 import Generate from './pages/Generate'
 import WebsiteEditor from './pages/Editor'
 import LiveSite from './pages/LiveSite.jsx'
-export const serverUrl="https://ai-code-generator-x6ig.onrender.com"
+export const serverUrl="https://ai-website-builder-qf38.onrender.com"
 function App(){
   useGetCurrentUser()
   const {userData} =useSelector(state=>state.user)
